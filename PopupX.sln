@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopupX.Android", "PopupX\PopupX.Android\PopupX.Android.csproj", "{565DDB04-948D-4281-A05B-83FBA3B35A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopupX", "PopupX\PopupX\PopupX.csproj", "{9F6CCE1D-4A92-4A29-8255-1849E841367F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Popup.UITest", "Popup.UITest\Popup.UITest.csproj", "{C9CBBD93-4EE8-49BE-A227-591BB6A3552B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{565DDB04-948D-4281-A05B-83FBA3B35A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565DDB04-948D-4281-A05B-83FBA3B35A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565DDB04-948D-4281-A05B-83FBA3B35A1C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{565DDB04-948D-4281-A05B-83FBA3B35A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565DDB04-948D-4281-A05B-83FBA3B35A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565DDB04-948D-4281-A05B-83FBA3B35A1C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9F6CCE1D-4A92-4A29-8255-1849E841367F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6CCE1D-4A92-4A29-8255-1849E841367F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6CCE1D-4A92-4A29-8255-1849E841367F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9F6CCE1D-4A92-4A29-8255-1849E841367F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6CCE1D-4A92-4A29-8255-1849E841367F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6CCE1D-4A92-4A29-8255-1849E841367F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C9CBBD93-4EE8-49BE-A227-591BB6A3552B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CBBD93-4EE8-49BE-A227-591BB6A3552B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CBBD93-4EE8-49BE-A227-591BB6A3552B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CBBD93-4EE8-49BE-A227-591BB6A3552B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4777947A-99A2-4994-8A50-3A0F0263D257}
+	EndGlobalSection
+EndGlobal

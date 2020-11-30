@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "iTn5M73oHOPX1yBQzf8mfa5Pg1uWqTcY2afPpfJSjxpAuBaPSNmRQ9OPnsVRKqsnyGsMiSbfmanpkhbBYch7kQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\PopupX\\Popup.UITest\\Popup.UITest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit3testadapter\\3.13.0\\nunit3testadapter.3.13.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\rg.plugins.popup\\2.0.0.7\\rg.plugins.popup.2.0.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.uitest\\3.0.5\\xamarin.uitest.3.0.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project PopupX.Android is not compatible with net461 (.NETFramework,Version=v4.6.1). Project PopupX.Android supports: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "PopupX.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project PopupX.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win. Project PopupX.Android supports: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "PopupX.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project PopupX.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win-x64. Project PopupX.Android supports: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "PopupX.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project PopupX.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win-x86. Project PopupX.Android supports: monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "PopupX.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
+}
