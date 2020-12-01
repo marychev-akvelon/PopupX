@@ -2,6 +2,45 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "Microsoft.AppCenter/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid50/Microsoft.AppCenter.Android.Bindings.dll": {},
+          "lib/MonoAndroid50/Microsoft.AppCenter.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid50/Microsoft.AppCenter.Android.Bindings.dll": {},
+          "lib/MonoAndroid50/Microsoft.AppCenter.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.0.0"
+        },
+        "compile": {
+          "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.Android.Bindings.dll": {},
+          "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.Android.Bindings.dll": {},
+          "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.0.0"
+        },
+        "compile": {
+          "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.Android.Bindings.dll": {},
+          "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.Android.Bindings.dll": {},
+          "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.dll": {}
+        }
+      },
       "Rg.Plugins.Popup/2.0.0.7": {
         "type": "package",
         "dependencies": {
@@ -771,7 +810,7 @@
           "lib/monoandroid90/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.8.0.1451": {
+      "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.CustomTabs": "28.0.0.3",
@@ -799,13 +838,26 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.UITest/3.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {}
+        },
+        "build": {
+          "build/Xamarin.UITest.props": {}
+        }
+      },
       "PopupX/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Rg.Plugins.Popup": "2.0.0.7",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.UITest": "3.0.11"
         },
         "compile": {
           "bin/placeholder/PopupX.dll": {}
@@ -817,6 +869,81 @@
     }
   },
   "libraries": {
+    "Microsoft.AppCenter/4.0.0": {
+      "sha512": "WzuUu01uzEymeIYZEWj9jVrAY92ndQVajKMDJzszmlew6TITI2mfcG1YA2xrXZcKk7Ks5Q0KUskoiNDOS2iYFg==",
+      "type": "package",
+      "path": "microsoft.appcenter/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Android.Bindings.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
+        "lib/net461/Microsoft.AppCenter.dll",
+        "lib/net461/Microsoft.AppCenter.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.xml",
+        "lib/uap10.0/Microsoft.AppCenter.dll",
+        "lib/uap10.0/Microsoft.AppCenter.xml",
+        "microsoft.appcenter.4.0.0.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/4.0.0": {
+      "sha512": "+h1Y1aylsr5MT+VfCs8/rsmmW5JJ8WxW8sgeUQ2WWHXlwGUWmHRX/15mQ53DBn2wKShDAcSiYJSVc64ZNQfEMQ==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.Android.Bindings.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net461/Microsoft.AppCenter.Analytics.dll",
+        "lib/net461/Microsoft.AppCenter.Analytics.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.xml",
+        "microsoft.appcenter.analytics.4.0.0.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/4.0.0": {
+      "sha512": "bwTZe3kEiANE+wnvW3Yj1p0tqd/tsUKyqRxSEA1QJI1vzBdsHdAoOQ51F9aqXJsoAEvI5PCRK8SysXysixISBg==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.Android.Bindings.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net461/Microsoft.AppCenter.Crashes.dll",
+        "lib/net461/Microsoft.AppCenter.Crashes.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Crashes.xml",
+        "microsoft.appcenter.crashes.4.0.0.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec"
+      ]
+    },
     "Rg.Plugins.Popup/2.0.0.7": {
       "sha512": "tIq0elo2zHSGjF2ARKSrBeI2W+HaQhWy5oOf1jikKEpzm2tDvDTCYWecqGVrn/Glly3BhW4A3NdEiBBjbB78Eg==",
       "type": "package",
@@ -1667,10 +1794,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.8.0.1451": {
-      "sha512": "3RUzBpcaBxOjufLLqJnuZRGLhzAbVyfe/Pyp0AFY/H1MkCHYxXIRzgB8h6yC9NTs39NLK2SgGiaMbvC4TJ/zFA==",
+    "Xamarin.Forms/4.8.0.1687": {
+      "sha512": "o9ACAbleXxorZzIHRBzIloPollwVC7+YTfxE8r3L2frArCHUkrHIy+K+azQag/Un4h2u88DS01HqR16/lMD8zQ==",
       "type": "package",
-      "path": "xamarin.forms/4.8.0.1451",
+      "path": "xamarin.forms/4.8.0.1687",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1979,8 +2106,28 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.8.0.1451.nupkg.sha512",
+        "xamarin.forms.4.8.0.1687.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.UITest/3.0.11": {
+      "sha512": "RPMHkDvALZxh60hPXzJkeAn6R3F+w+slS9m+ZPnax5MS5XFohronz7U1TyWUTRHPa//ykf11vczUtbisjyb/OQ==",
+      "type": "package",
+      "path": "xamarin.uitest/3.0.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "ThirdPartyNotices.txt",
+        "build/Xamarin.UITest.props",
+        "lib/net45/Xamarin.UITest.dll",
+        "lib/net45/Xamarin.UITest.xml",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.dll",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.xml",
+        "tools/test-cloud.exe",
+        "xamarin.uitest.3.0.11.nupkg.sha512",
+        "xamarin.uitest.nuspec"
       ]
     },
     "PopupX/1.0.0": {
@@ -1991,10 +2138,14 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "Microsoft.AppCenter >= 4.0.0",
+      "Microsoft.AppCenter.Analytics >= 4.0.0",
+      "Microsoft.AppCenter.Crashes >= 4.0.0",
       "PopupX >= 1.0.0",
       "Rg.Plugins.Popup >= 2.0.0.7",
       "Xamarin.Essentials >= 1.5.3.2",
-      "Xamarin.Forms >= 4.8.0.1451"
+      "Xamarin.Forms >= 4.8.0.1687",
+      "Xamarin.UITest >= 3.0.11"
     ]
   },
   "packageFolders": {
@@ -2039,6 +2190,18 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "Microsoft.AppCenter": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "Microsoft.AppCenter.Analytics": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "Microsoft.AppCenter.Crashes": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
           "Rg.Plugins.Popup": {
             "target": "Package",
             "version": "[2.0.0.7, )"
@@ -2049,7 +2212,11 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.8.0.1451, )"
+            "version": "[4.8.0.1687, )"
+          },
+          "Xamarin.UITest": {
+            "target": "Package",
+            "version": "[3.0.11, )"
           }
         }
       }

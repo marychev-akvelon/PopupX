@@ -12,7 +12,8 @@
           "NETStandard.Library": "2.0.3",
           "Rg.Plugins.Popup": "2.0.0.7",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.UITest": "3.0.11"
         },
         "runtime": {
           "PopupX.dll": {}
@@ -26,7 +27,7 @@
       },
       "Rg.Plugins.Popup/2.0.0.7": {
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1451"
+          "Xamarin.Forms": "4.8.0.1687"
         },
         "runtime": {
           "lib/netstandard2.0/Rg.Plugins.Popup.dll": {
@@ -54,22 +55,23 @@
           }
         }
       },
-      "Xamarin.Forms/4.8.0.1451": {
+      "Xamarin.Forms/4.8.0.1687": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.8.0.372"
+            "fileVersion": "4.8.0.400"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.8.0.372"
+            "fileVersion": "4.8.0.400"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.8.0.372"
+            "fileVersion": "4.8.0.400"
           }
         }
-      }
+      },
+      "Xamarin.UITest/3.0.11": {}
     }
   },
   "libraries": {
@@ -113,12 +115,19 @@
       "path": "xamarin.essentials/1.5.3.2",
       "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
     },
-    "Xamarin.Forms/4.8.0.1451": {
+    "Xamarin.Forms/4.8.0.1687": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3RUzBpcaBxOjufLLqJnuZRGLhzAbVyfe/Pyp0AFY/H1MkCHYxXIRzgB8h6yC9NTs39NLK2SgGiaMbvC4TJ/zFA==",
-      "path": "xamarin.forms/4.8.0.1451",
-      "hashPath": "xamarin.forms.4.8.0.1451.nupkg.sha512"
+      "sha512": "sha512-o9ACAbleXxorZzIHRBzIloPollwVC7+YTfxE8r3L2frArCHUkrHIy+K+azQag/Un4h2u88DS01HqR16/lMD8zQ==",
+      "path": "xamarin.forms/4.8.0.1687",
+      "hashPath": "xamarin.forms.4.8.0.1687.nupkg.sha512"
+    },
+    "Xamarin.UITest/3.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RPMHkDvALZxh60hPXzJkeAn6R3F+w+slS9m+ZPnax5MS5XFohronz7U1TyWUTRHPa//ykf11vczUtbisjyb/OQ==",
+      "path": "xamarin.uitest/3.0.11",
+      "hashPath": "xamarin.uitest.3.0.11.nupkg.sha512"
     }
   }
 }

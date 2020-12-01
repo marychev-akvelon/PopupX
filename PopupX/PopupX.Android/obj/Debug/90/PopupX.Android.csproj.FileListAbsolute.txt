@@ -494,3 +494,4 @@ C:\Users\Administrator\source\repos\PopupX\PopupX\PopupX.Android\obj\Debug\90\st
 C:\Users\Administrator\source\repos\PopupX\PopupX\PopupX.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Administrator\source\repos\PopupX\PopupX\PopupX.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Administrator\source\repos\PopupX\PopupX\PopupX.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Administrator\source\repos\PopupX\PopupX\PopupX.Android\bin\Debug\test-cloud.exe

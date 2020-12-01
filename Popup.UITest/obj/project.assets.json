@@ -57,7 +57,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.8.0.1451": {
+      "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -74,13 +74,16 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.UITest/3.0.5": {
+      "Xamarin.UITest/3.0.11": {
         "type": "package",
         "compile": {
           "lib/net45/Xamarin.UITest.dll": {}
         },
         "runtime": {
           "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "PopupX/1.0.0": {
@@ -89,7 +92,8 @@
         "dependencies": {
           "Rg.Plugins.Popup": "2.0.0.7",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.UITest": "3.0.11"
         },
         "compile": {
           "bin/placeholder/PopupX.dll": {}
@@ -165,7 +169,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.8.0.1451": {
+      "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -182,13 +186,16 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.UITest/3.0.5": {
+      "Xamarin.UITest/3.0.11": {
         "type": "package",
         "compile": {
           "lib/net45/Xamarin.UITest.dll": {}
         },
         "runtime": {
           "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "PopupX/1.0.0": {
@@ -197,7 +204,8 @@
         "dependencies": {
           "Rg.Plugins.Popup": "2.0.0.7",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.UITest": "3.0.11"
         },
         "compile": {
           "bin/placeholder/PopupX.dll": {}
@@ -273,7 +281,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.8.0.1451": {
+      "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -290,13 +298,16 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.UITest/3.0.5": {
+      "Xamarin.UITest/3.0.11": {
         "type": "package",
         "compile": {
           "lib/net45/Xamarin.UITest.dll": {}
         },
         "runtime": {
           "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "PopupX/1.0.0": {
@@ -305,7 +316,8 @@
         "dependencies": {
           "Rg.Plugins.Popup": "2.0.0.7",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.UITest": "3.0.11"
         },
         "compile": {
           "bin/placeholder/PopupX.dll": {}
@@ -381,7 +393,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.8.0.1451": {
+      "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -398,13 +410,16 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.UITest/3.0.5": {
+      "Xamarin.UITest/3.0.11": {
         "type": "package",
         "compile": {
           "lib/net45/Xamarin.UITest.dll": {}
         },
         "runtime": {
           "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "PopupX/1.0.0": {
@@ -413,7 +428,8 @@
         "dependencies": {
           "Rg.Plugins.Popup": "2.0.0.7",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.UITest": "3.0.11"
         },
         "compile": {
           "bin/placeholder/PopupX.dll": {}
@@ -629,10 +645,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.8.0.1451": {
-      "sha512": "3RUzBpcaBxOjufLLqJnuZRGLhzAbVyfe/Pyp0AFY/H1MkCHYxXIRzgB8h6yC9NTs39NLK2SgGiaMbvC4TJ/zFA==",
+    "Xamarin.Forms/4.8.0.1687": {
+      "sha512": "o9ACAbleXxorZzIHRBzIloPollwVC7+YTfxE8r3L2frArCHUkrHIy+K+azQag/Un4h2u88DS01HqR16/lMD8zQ==",
       "type": "package",
-      "path": "xamarin.forms/4.8.0.1451",
+      "path": "xamarin.forms/4.8.0.1687",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -941,26 +957,27 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.8.0.1451.nupkg.sha512",
+        "xamarin.forms.4.8.0.1687.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.UITest/3.0.5": {
-      "sha512": "PjbfZ4cjwUebAeY3sTIITM+7xGvZg8ZxFjmwx3gZfsmrOu6oqTXr6KdnneynnQpxOxwo6BR72JnewdAWipIf2Q==",
+    "Xamarin.UITest/3.0.11": {
+      "sha512": "RPMHkDvALZxh60hPXzJkeAn6R3F+w+slS9m+ZPnax5MS5XFohronz7U1TyWUTRHPa//ykf11vczUtbisjyb/OQ==",
       "type": "package",
-      "path": "xamarin.uitest/3.0.5",
+      "path": "xamarin.uitest/3.0.11",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "ThirdPartyNotices.txt",
+        "build/Xamarin.UITest.props",
         "lib/net45/Xamarin.UITest.dll",
         "lib/net45/Xamarin.UITest.xml",
         "lib/portable-net45+win8+wp8/Xamarin.UITest.dll",
         "lib/portable-net45+win8+wp8/Xamarin.UITest.xml",
         "tools/test-cloud.exe",
-        "xamarin.uitest.3.0.5.nupkg.sha512",
+        "xamarin.uitest.3.0.11.nupkg.sha512",
         "xamarin.uitest.nuspec"
       ]
     },
@@ -980,8 +997,7 @@
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.13.0",
       "PopupX >= 1.0.0",
-      "PopupX.Android >= 1.0.0",
-      "Xamarin.UITest >= 3.0.5"
+      "PopupX.Android >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1036,10 +1052,6 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.13.0, )"
-          },
-          "Xamarin.UITest": {
-            "target": "Package",
-            "version": "[3.0.5, )"
           }
         }
       }

@@ -42,6 +42,18 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Rg.Plugins.Popup": {
               "target": "Package",
               "version": "[2.0.0.7, )"
@@ -52,7 +64,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1451, )"
+              "version": "[4.8.0.1687, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[3.0.11, )"
             }
           }
         }
@@ -114,7 +130,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1451, )"
+              "version": "[4.8.0.1687, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[3.0.11, )"
             }
           },
           "imports": [

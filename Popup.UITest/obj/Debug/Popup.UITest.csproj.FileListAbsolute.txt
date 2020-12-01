@@ -122,3 +122,4 @@ C:\Users\Administrator\source\repos\PopupX\Popup.UITest\obj\Debug\Popup.UITest.c
 C:\Users\Administrator\source\repos\PopupX\Popup.UITest\obj\Debug\Popup.UITest.csproj.CopyComplete
 C:\Users\Administrator\source\repos\PopupX\Popup.UITest\obj\Debug\Popup.UITest.dll
 C:\Users\Administrator\source\repos\PopupX\Popup.UITest\obj\Debug\Popup.UITest.pdb
+C:\Users\Administrator\source\repos\PopupX\Popup.UITest\bin\Debug\test-cloud.exe

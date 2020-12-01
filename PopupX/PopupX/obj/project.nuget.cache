@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oNWM1TnxTkGnJGOq4jnHsS5rGCHBlbXeRVtsuEXH5uBb3lEPt7pS5VI9PEITcDx2Fc4ID19HnQsIAn2/QepIHw==",
+  "dgSpecHash": "h9RoFCByldT1sYk36sQwP0zyaMThqG3QDJlFtK5lzbMiQ7Z9ssYeGXOu9NkGY6f3xwAaGr5hX297A1cQpDw6Zw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\PopupX\\PopupX\\PopupX\\PopupX.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\rg.plugins.popup\\2.0.0.7\\rg.plugins.popup.2.0.0.7.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\xamarin.uitest\\3.0.11\\xamarin.uitest.3.0.11.nupkg.sha512"
   ],
   "logs": []
 }

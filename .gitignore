@@ -1,3 +1,7 @@
 .vs/*
-bin/*
-obj/*
+PopupX/PopupX/bin/*
+PopupX/PopupX/obj/*
+PopupX/PopupX.Android/bin/*
+PopupX/PopupX.Android/obj/*
+Popup.UITest/bin/*
+Popup.UITest/obj/*
