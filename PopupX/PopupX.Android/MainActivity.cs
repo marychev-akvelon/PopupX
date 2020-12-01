@@ -17,6 +17,9 @@ namespace PopupX.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            AppCenter.Start("182d8d87-aeb3-44f0-9901-56e694f18316",
+                   typeof(Analytics), typeof(Crashes));
+
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
             Rg.Plugins.Popup.Popup.Init(this, savedInstanceState);
