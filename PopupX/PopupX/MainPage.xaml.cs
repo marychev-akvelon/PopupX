@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Rg.Plugins.Popup.Animations;
 using Rg.Plugins.Popup.Enums;
-using Rg.Plugins.Popup.Extensions;
 using Rg.Plugins.Popup.Services;
 using Xamarin.Forms;
 
@@ -28,7 +23,9 @@ namespace PopupX
             };
 
             pr.Animation = scaleAnimation;
+#pragma warning disable CS0618 // Type or member is obsolete
             await PopupNavigation.PushAsync(pr);
+#pragma warning restore CS0618 // Type or member is obsolete
         }
 
     }
